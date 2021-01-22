@@ -7,3 +7,12 @@ function isAlpha(str) {
     const alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     return str.split('').every(char => alphabet.includes(char));
 }
+
+/**
+ * Cette fonction teste si la chaine ne contient pas de lettre miniscule
+ * @param  {String}  str
+ * @return {Boolean}
+ */
+function isUpperCase(str) {
+    return str === str.toUpperCase();
+}
