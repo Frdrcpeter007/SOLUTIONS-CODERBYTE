@@ -25,3 +25,19 @@ function isUpperCase(str) {
 function isLowerCase(str) {
     return str === str.toLowerCase();
 }
+
+/**
+ * Cette fonction permet de mettre en majuscule tous les voyelle d'une chaine de caractère
+ * @param  {String} str
+ * @return {String}
+ */
+function capitalizeVowels(str) {
+    const vowels = 'aeiouy';
+
+    const newString = str
+        .split('')
+        .map(char => (vowels.includes(char) ? char.toUpperCase() : char))
+        .join('');
+
+    return newString;
+}
