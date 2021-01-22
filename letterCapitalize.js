@@ -1,7 +1,7 @@
 /**
  * Cette fonction met la première lettre d'une chaine de caractère en majuscule
- * @param  {string} str
- * @return {string}
+ * @param  {String} str
+ * @return {String}
  */
 function letterCapitalize(str) {
     let newString = '';
