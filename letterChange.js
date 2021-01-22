@@ -16,3 +16,12 @@ function isAlpha(str) {
 function isUpperCase(str) {
     return str === str.toUpperCase();
 }
+
+/**
+ * Cette fonction teste si la chaine ne contient pas de lettre en majuscule
+ * @param  {String}  str
+ * @return {Boolean}
+ */
+function isLowerCase(str) {
+    return str === str.toLowerCase();
+}
